@@ -16,6 +16,6 @@ steps:
   - run
   - --filename=k8s/
   - --location=us-west1-b
-  - --cluster=salary-app
+  - --cluster=salary-cluster
 options:
   logging: CLOUD_LOGGING_ONLY
