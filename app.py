@@ -16,7 +16,7 @@ def welcome():
 def predict_survival():
     experience = request.args.get("experience")
     prediction = model.predict([[int(experience)]])
-    return "the predicted value is" + str(prediction)
+    return "The predicted value is" + str(prediction)
 
 
 if __name__ == '__main__':
