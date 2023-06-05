@@ -8,7 +8,7 @@ model = load('salaryModel.pkl')
 # GET REQUEST
 @app.route('/')
 def welcome():
-    return "Welcome All"
+    return "Welcome to Salary Prediction Model"
 
 
 # GET REQUEST
